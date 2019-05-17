@@ -4,7 +4,8 @@ A set of keywords &amp; tools that could be used to automate the testing in Telc
 
 
 ## How to run
-Visit the below blog post for more details
+Visit the following blog post for more details
+
 https://basimaly.wordpress.com/2019/05/17/automated-testing-in-telco-cloud-using-robot-framework/
 
 modify the credentials in pybot file
