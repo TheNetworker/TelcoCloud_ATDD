@@ -21,7 +21,7 @@ riyadh_dc = {
 }
 ```
 Create the pod
-```python
+```shell
 /usr/local/bin/robot \
 --pythonpath Scripts/TelcoCloud_Testing\
 --outputdir Scripts/TelcoCloud_Testing\
@@ -32,7 +32,7 @@ Scripts/TelcoCloud_Testing/test_basic_vnf_connectivity.robot
 
 
 Delete the pod
-```python
+```shell
 /usr/local/bin/robot \
 --pythonpath Scripts/TelcoCloud_Testing\
 --outputdir Scripts/TelcoCloud_Testing\
