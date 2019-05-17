@@ -4,7 +4,7 @@ A set of keywords &amp; tools that could be used to automate the testing in Telc
 ## How to run
 modify the credentials in pybot file
 ```python
-riyadh_dc = {
+dc_parameters = {
 
     "API_SERVER": "CONTRAIL_IP_ADDRESS",
     "AUTH_URL": "OPENSTACK_AUTH_URL",
