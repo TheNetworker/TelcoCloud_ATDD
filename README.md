@@ -33,7 +33,7 @@ Create the pod
 --outputdir Scripts/TelcoCloud_Testing\
 -l DEBUG \
 --include create_pod \ 
-Scripts/TelcoCloud_Testing/test_basic_vnf_connectivity.robot
+TelcoCloud_Testing/test_basic_vnf_connectivity.robot
 ```
 
 
@@ -44,5 +44,5 @@ Delete the pod
 --outputdir Scripts/TelcoCloud_Testing\
 -l DEBUG \
 --include delete_pod \ 
-Scripts/TelcoCloud_Testing/test_basic_vnf_connectivity.robot
+TelcoCloud_Testing/test_basic_vnf_connectivity.robot
 ```
