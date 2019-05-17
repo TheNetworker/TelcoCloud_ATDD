@@ -23,7 +23,7 @@ import warnings
 warnings.filterwarnings(action='ignore', module='.*paramiko.*')
 
 
-riyadh_dc = {
+dc_parameters = {
 
     "API_SERVER": "CONTRAIL_IP_ADDRESS",
     "AUTH_URL": "OPENSTACK_AUTH_URL",
@@ -39,6 +39,9 @@ riyadh_dc = {
 
 }
 
+environment = dc_parameters
+
+locals().update(environment)
 
 class contrail_utils(object):
     def __init__(self, ):
